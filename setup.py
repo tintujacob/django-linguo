@@ -4,7 +4,7 @@ import linguo
 
 
 setup(
-    name='django-linguo',
+    name='django-bilinguo',
     packages=['linguo', 'linguo.tests'],
     package_data={'linguo': ['tests/locale/*/LC_MESSAGES/*']},
     version=linguo.__version__,
@@ -17,7 +17,7 @@ setup(
         'Operating System :: OS Independent',
         'Topic :: Software Development'
     ],
-    author='Zach Mathew',
-    url='http://github.com/zmathew/django-linguo',
+    author='Zach Mathew, Tintu Jacob',
+    url='https://github.com/tintujacob/django-linguo',
     license='BSD',
 )
